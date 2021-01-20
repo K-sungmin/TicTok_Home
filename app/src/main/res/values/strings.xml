@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Example_TicTok_Home</string>
+    <string name="home">홈</string>
+    <string name="ranking">랭킹</string>
+    <string name="study">공부</string>
+    <string name="planner">플래너</string>
+    <string name="mypage">마이페이지</string>
+</resources>

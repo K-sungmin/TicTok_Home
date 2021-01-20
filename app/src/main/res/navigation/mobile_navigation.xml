@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/study">
+
+    <fragment
+        android:id="@+id/study"
+        android:name="com.tictok.example_tictok_home.ui.study.StudyFragment"
+        android:label="@string/study"
+        tools:layout="@layout/fragment_study" />
+
+    <fragment
+        android:id="@+id/planner"
+        android:name="com.tictok.example_tictok_home.ui.planner.PlannerFragment"
+        android:label="@string/planner"
+        tools:layout="@layout/fragment_planner" />
+
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.tictok.example_tictok_home.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/ranking"
+        android:name="com.tictok.example_tictok_home.ui.ranking.RankingFragment"
+        android:label="@string/ranking"
+        tools:layout="@layout/fragment_ranking" />
+
+    <fragment
+        android:id="@+id/mypage"
+        android:name="com.tictok.example_tictok_home.ui.mypage.MypageFragment"
+        android:label="@string/mypage"
+        tools:layout="@layout/fragment_mypage" />
+</navigation>

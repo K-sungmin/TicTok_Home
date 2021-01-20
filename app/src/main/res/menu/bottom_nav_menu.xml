@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/study"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/study" />
+
+    <item
+        android:id="@+id/planner"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/planner" />
+
+    <item
+        android:id="@+id/homepage"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/ranking" />
+
+    <item
+        android:id="@+id/mypage"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/mypage" />
+</menu>
